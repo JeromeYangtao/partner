@@ -1,12 +1,12 @@
-package com.mianyun.partner.controller;
+package com.mianyun.partner.Controller;
 
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
 @RestController
-@RequestMapping("")
-public class User {
+@RequestMapping("/api")
+public class UserController {
 
     @GetMapping(value = "/users")
     public ArrayList getUserList(){
