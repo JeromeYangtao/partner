@@ -5,3 +5,5 @@ SpringBoot + Mybatis 练手项目
 - [x] 模板引擎整合前端
 - [x] RestFul接口
 - [x] class热更新
+- [x] Mysql存储数据
+- [x] Mybatis整合

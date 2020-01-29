@@ -1,4 +1,4 @@
-package com.mianyun.partner.Controller;
+package com.mianyun.partner.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

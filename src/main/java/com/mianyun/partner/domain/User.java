@@ -1,17 +1,15 @@
-package com.mianyun.partner.Entity;
+package com.mianyun.partner.domain;
 
 import lombok.Data;
 
-/**
- * @Author taoyang
- * @Date 2020/1/27
- **/
-
 @Data
 public class User {
-    private Long id;
+
+    private static final long serialVersionUID = 1L;
+
+    private int id;
     private String name;
-    private String age;
+    private int age;
     private String phoneNumber;
     private String email;
 }
